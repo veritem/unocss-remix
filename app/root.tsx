@@ -1,3 +1,4 @@
+import reset from "@unocss/reset/normalize.css";
 import type { LinksFunction, MetaFunction } from "remix";
 import {
   Links, LiveReload,
@@ -8,12 +9,17 @@ import {
 } from "remix";
 import unocss from "~/uno.css";
 
+
 export const meta: MetaFunction = () => {
-  return { title: "New Remix App" };
+  return { title: "unocss remix" };
 }
 
 export const links: LinksFunction = () => {
   return [
+    {
+      rel: "stylesheet",
+      href: reset
+    },
     {
       rel: "stylesheet",
       href: unocss

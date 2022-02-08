@@ -9,6 +9,7 @@ specifiers:
   '@unocss/cli': ^0.23.0
   '@unocss/preset-uno': ^0.23.0
   '@unocss/preset-web-fonts': ^0.23.0
+  '@unocss/reset': ^0.24.0
   concurrently: ^7.0.0
   react: ^17.0.2
   react-dom: ^17.0.2
@@ -30,6 +31,7 @@ devDependencies:
   '@unocss/cli': 0.23.0
   '@unocss/preset-uno': 0.23.0
   '@unocss/preset-web-fonts': 0.23.0
+  '@unocss/reset': 0.24.0
   concurrently: 7.0.0
   typescript: 4.5.5
   unocss: 0.23.0
@@ -504,6 +506,10 @@ packages:
 
   /@unocss/reset/0.23.0:
     resolution: {integrity: sha512-wo6Ew9L+Xhlwxl9VJN1PWB0gilO1T5+m0TIokwDn6WoNIHY8Ugn3NxtMDvTQJavI5t6yWbW/Up0lhgqv8Axa8A==}
+    dev: true
+
+  /@unocss/reset/0.24.0:
+    resolution: {integrity: sha512-dhVaza7UZJGJX5HsAS5n1X9YY67XCP4X2RgU6CCb7e5g+hgOL+xOFkuYB9YPFBrJRsq9pQsnTO9/y1wEOZnCsQ==}
     dev: true
 
   /@unocss/scope/0.23.0:
