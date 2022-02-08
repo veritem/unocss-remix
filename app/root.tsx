@@ -1,23 +1,22 @@
-import type { MetaFunction } from "remix";
+import type { LinksFunction, MetaFunction } from "remix";
 import {
-  Links,
-  LinksFunction,
-  LiveReload,
+  Links, LiveReload,
   Meta,
   Outlet,
   Scripts,
   ScrollRestoration
 } from "remix";
+import unocss from "~/uno.css";
 
 export const meta: MetaFunction = () => {
   return { title: "New Remix App" };
-};
+}
 
 export const links: LinksFunction = () => {
   return [
     {
       rel: "stylesheet",
-      href: "uno.css"
+      href: unocss
     }
   ]
 }

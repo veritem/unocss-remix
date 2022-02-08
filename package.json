@@ -4,8 +4,8 @@
   "description": "",
   "license": "",
   "scripts": {
+    "dev": "concurrently \"unocss \"app/**/*.tsx\" --out-file=\"app/uno.css\" --watch\" \"remix dev\"",
     "build": "remix build",
-    "dev": "remix dev",
     "postinstall": "remix setup node",
     "start": "remix-serve build"
   },
