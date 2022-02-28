@@ -1,4 +1,4 @@
-import reset from "@unocss/reset/normalize.css";
+import reset from '@unocss/reset/tailwind.css';
 import type { LinksFunction, MetaFunction } from "remix";
 import {
   Links, LiveReload,
@@ -10,6 +10,7 @@ import {
 import unocss from "~/uno.css";
 
 
+
 export const meta: MetaFunction = () => {
   return { title: "unocss remix" };
 }
@@ -18,11 +19,11 @@ export const links: LinksFunction = () => {
   return [
     {
       rel: "stylesheet",
-      href: reset
+      href: unocss
     },
     {
       rel: "stylesheet",
-      href: unocss
+      href: reset
     }
   ]
 }
