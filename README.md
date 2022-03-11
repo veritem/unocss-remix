@@ -1,5 +1,7 @@
 # Welcome to Remix!
 
+This was a demo, it was moved here instead(https://github.com/unocss/unocss/tree/main/test/fixtures/remix)
+
 - [Remix Docs](https://remix.run/docs)
 
 ## Development
