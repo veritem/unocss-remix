@@ -5,7 +5,7 @@
   "license": "",
   "scripts": {
     "dev": "concurrently \"unocss \"app/**/*.tsx\" --out-file=\"app/uno.css\" --watch\" \"remix dev\"",
-    "build": "remix build",
+    "build": "concurrently \"unocss \"app/**/*.tsx\" --out-file=\"app/uno.css\"\" \"remix build\"",
     "postinstall": "remix setup node",
     "start": "remix-serve build"
   },

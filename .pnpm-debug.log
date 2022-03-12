@@ -1,0 +1,20 @@
+{
+  "0 debug pnpm:scope": {
+    "selected": 1
+  },
+  "1 error pnpm": {
+    "errno": 2,
+    "code": "ELIFECYCLE",
+    "pkgid": "remix-app-template@",
+    "stage": "build",
+    "script": "concurrently \"unocss \"app/**/*.tsx\" --out-file=\"app/uno.css\" \"remix dev\"",
+    "pkgname": "remix-app-template",
+    "err": {
+      "name": "pnpm",
+      "message": "remix-app-template@ build: `concurrently \"unocss \"app/**/*.tsx\" --out-file=\"app/uno.css\" \"remix dev\"`\nExit status 2",
+      "code": "ELIFECYCLE",
+      "stack": "pnpm: remix-app-template@ build: `concurrently \"unocss \"app/**/*.tsx\" --out-file=\"app/uno.css\" \"remix dev\"`\nExit status 2\n    at EventEmitter.<anonymous> (/home/veritem/.local/share/pnpm-global/5/node_modules/.pnpm/pnpm@6.32.2/node_modules/pnpm/dist/pnpm.cjs:105700:20)\n    at EventEmitter.emit (node:events:527:28)\n    at ChildProcess.<anonymous> (/home/veritem/.local/share/pnpm-global/5/node_modules/.pnpm/pnpm@6.32.2/node_modules/pnpm/dist/pnpm.cjs:92261:18)\n    at ChildProcess.emit (node:events:527:28)\n    at maybeClose (node:internal/child_process:1090:16)\n    at Process.ChildProcess._handle.onexit (node:internal/child_process:302:5)"
+    }
+  },
+  "2 warn pnpm:global": " Local package.json exists, but node_modules missing, did you mean to install?"
+}
